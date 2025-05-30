@@ -1,7 +1,7 @@
 participants:
   - el_type: reth
-    el_image: reth:local
+    #el_image: reth:local
+    el_image: ghcr.io/paradigmxyz/reth
     cl_type: lighthouse
     cl_image: sigp/lighthouse:latest
     el_extra_params: ["--dev", "--dev.block-time", "2s"]
-
