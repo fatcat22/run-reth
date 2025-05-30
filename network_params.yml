@@ -4,4 +4,5 @@ participants:
     el_image: ghcr.io/paradigmxyz/reth
     cl_type: lighthouse
     cl_image: sigp/lighthouse:latest
-    el_extra_params: ["--dev", "--dev.block-time", "2s"]
+    el_extra_params:
+      ["--dev", "--dev.block-time", "2s", "--txpool.minimal-protocol-fee", "1"]
