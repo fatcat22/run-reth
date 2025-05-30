@@ -1,0 +1,7 @@
+participants:
+  - el_type: reth
+    el_image: reth:local
+    cl_type: lighthouse
+    cl_image: sigp/lighthouse:latest
+    el_extra_params: ["--dev", "--dev.block-time", "2s"]
+
